@@ -1,0 +1,63 @@
+footer {
+    margin: 10% auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#imagem {
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+
+body {
+    height: 100%; 
+    width: 100%;
+ }
+
+
+#contato {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #fff;
+}
+
+@media (max-width: 600px) {
+#contato {
+    width: 100%;
+    height: auto;
+    }
+}
+
+#form div {
+      background: #fff;
+      border: 0;
+      border-bottom: 1px solid rgb(151, 149, 149);
+      margin: 1rem 2rem;
+      padding: 2rem;
+}
+
+#form div textarea {
+      width: 80%;
+}
+
+#form label {
+    color: rgb(151, 149, 149);
+}
+
+#contato h1, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: black;
+}
+
+#info h2{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}

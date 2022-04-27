@@ -1,0 +1,15 @@
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    &__item {
+        color: $font-color-primary;
+        font-size: $font-size-nav;
+        text-decoration: none;
+        &:hover {
+            color: $font-color-secondary;
+        }
+    }
+    margin-bottom: 20px;
+}
