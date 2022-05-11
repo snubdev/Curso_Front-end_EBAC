@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/styles.min.css">
+
+    <title>Sobre</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark static-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="src/images/SHOP TECH.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#featured">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="Cadastro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p>Faça seu cadastro para receber nossos produtos em sua casa</p>
+                </div>
+            </div>
+
+            <form class="form">
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome" required> 
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email" required>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="endereço" class="col-form-label col-form-label-sm">Endereço completo</label>
+                        <input type="text" id="endereco" class="form-control" placeholder="Endereço completo" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <lable for="estado" class="col-form-label col-form-label-sm">Estado</lable>
+                        <select name="estado" id="estado" class="form-control">
+                            <option value="">Selecione um estado</option>
+                            <option value="sp">SP</option>
+                            <option value="al">AL</option>
+                            <option value="mg">MG</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="barrio">Barrio</label>
+                        <input type="text" name="barrio" id="barrio" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" name="complemento" id="complemento" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" class="form-control" required>
+                    </div>
+                </div>
+
+                
+
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group">
+                            <label for="infor" class="col-form-label-sm">Informações</label>
+                            <textarea class="form-control" name="" rows="5"></textarea>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" name="promocionais" id="promocionais">
+                            <lable for="promocionais" class="form-check-label">Aceito receber mensagens promocionais</lable>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-lg btn-primary">Realizar cadastro</button>
+
+            </form>
+            <div class="row">
+                <a id="texto1" href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a></p>
+                <p id="texto">Para receber novidades.</p>
+            </div>
+            
+                    
+        </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscrever-me na lista</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Preencha os campos para receber novidades e promoções</h6>
+                    
+                    <form class="form-inline">
+                        <div class="row">
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="nome" placeholder="nome">
+                            </div>
+                            <div class="form-group col-4">
+                                <input type="text" class="form-control form-control-sm mb-2" name="e-mail" placeholder="e-mail" required>
+                            </div>
+                            <div class="form-group col-4">
+                                <button type="submit" class="btn btn-success">receber novidades</button>
+                            </div>
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+                <div class="modal-footer">
+                    <buttom type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Fechar</buttom>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="src/images/SHOP TECH.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">How It Works ?</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>SHOP TECH &copy; Todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="./dist/js/scripts.min.js"></script>
+    </body>
+    </html>

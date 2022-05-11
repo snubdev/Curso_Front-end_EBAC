@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
+		
+		<!-- Estilos Personalizados -->
+        <link rel="stylesheet" type="text/css" href="./css/layout2.css">
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./css/modulo-07.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+                    <li><a href="pagina1.html">Home</a></li>
+					<li><a href="pagina2.html">Tabela</a></li>
+					<li id="pr"><a href="pagina3.html">Contato</a></li>
+				</ul>
+
+			</nav>
+
+            <article id="contato">
+                <h1>Contato</h1>
+                <p>Preencha os campos abaixos</p>
+
+                <form id="form" method="post">
+                    <div>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label>Vamos toma um café</label>
+                            <input type="radio" name="linguagens" value="SIM"> SIM
+                            <input type="radio" name="linguagens" value="NÃO"> NÃO
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label for="mensagem">Caso SIM Informe o local</label><br>
+                            <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+                        </p>
+                    </div>
+
+                    <div>
+                        <label>Qual o horario</label>
+                        <select>
+                            <option value="vazio" selected> </option>
+                            <option value="7:00">7:00</option>
+                            <option value="7:30">7:30</option>
+                            <option value="8:00">8:00</option>
+                            <option value="8:30">8:30</option>
+                            <option value="9:00">9:00</option>
+                            <option value="9:00">9:30</option>
+                            <option value="10:00">10:00</option>
+                            <option value="10:30">10:30</option>
+                            <option value="11:00">11:00</option>
+                            <option value="11:00">11:30</option>
+
+                        </select>
+                    </div>
+
+                    <div>
+                        <input class="button" type="submit">
+                    </div>
+                </form>
+            </article>
+
+		
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Maicon Leandro</p>
+		</footer>
+		
+	</body>
+</html>

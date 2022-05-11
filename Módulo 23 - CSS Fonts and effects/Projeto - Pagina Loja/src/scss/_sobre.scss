@@ -1,0 +1,21 @@
+#sobre {
+    .container {
+        background-color: #042541;
+        margin-top: 20px;
+        border-radius: 1rem;
+
+    }
+
+    article {
+        p {
+            font-size: $font-size-default;
+            color: $font-color-primary;
+            margin-left: 10px;
+        }
+        h1 {
+            margin-left: 10px;
+        }
+
+        
+    }
+}

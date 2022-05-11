@@ -1,0 +1,21 @@
+.home {
+    margin: 0;
+    margin-top: 5px;
+    // a
+    &__link {
+        color: $color-02;
+        font-style: Arial;
+        font-size: $font-normal;
+        
+    }
+
+    &__description {
+        color: $color-02;
+        font-style: Arial;
+        font-size: $font-normal;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+
+}

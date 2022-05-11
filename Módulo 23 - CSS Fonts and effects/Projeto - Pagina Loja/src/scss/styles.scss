@@ -1,0 +1,65 @@
+$color-primary: #06345a;
+$color-secondary: #ffffff;
+$font-color-primary: #ffffff;
+$font-color-secondary: #ffffff;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+@import 'fonts';
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+@import 'nav';
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $color-primary;
+    font-family: $font-default;
+}
+
+h1 {
+    color: $font-color-primary;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+
+article{
+
+    h1 {
+        color: $color-secondary;
+        font-size: 3rem;
+        text-align: left;
+    }
+
+}
+
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+
+@import 'header';
+@import 'sobre';
+
+@import 'produtos';
+
+@import 'vitrine';
+@import 'modal';
+
+@import 'contato';
